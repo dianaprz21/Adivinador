@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinador</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <h1 class="text-center">Adivina mi número</h1>
+        </header>
+
+        <main>
+            <p class="text text-center">Piensa en un número del 1 al 100 y yo intentaré adivinarlo.</p>
+            <div class="text-center" id="message"></div>
+            <div class="button text-center mt-3">
+                <button id="startButton" class="btn btn-primary" onclick="adivina()">Comenzar</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
